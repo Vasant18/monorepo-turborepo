@@ -85,7 +85,8 @@
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"],
-      "ui": ["../../packages/ui/src"]
+      "@repo/ui": ["../../packages/ui/src"],
+      "db": ["../../packages/db/src"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
