@@ -10,15 +10,19 @@
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/mongoose": "^5.11.97",
+    "db": "*",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1",
     "next": "14.2.6",
-    "react": "^18",
+    "react": "^18.2.0",
     "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "next-transpile-modules": "^10.0.1",
     "typescript": "^5"
   }
 }
